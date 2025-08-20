@@ -22,14 +22,15 @@ Print the results.
 
 import numpy as np
 
-A = np.array([[-2,2,-3],[2,1,-6],[-1,-2,0]])
+A = np.array([[2,-3,0],[2,-5,0],[0,0,3]])
 
 values , vector = np.linalg.eig(A)
 
 print("Eigen values are",values,"and Eigen Vectors are",vector)
 ```
 ## Output:
-<img width="1344" height="263" alt="Screenshot 2025-08-14 181112" src="https://github.com/user-attachments/assets/d5c27ba9-9a51-48f3-865b-02094b04f831" />
+<img width="1324" height="819" alt="image" src="https://github.com/user-attachments/assets/04d89677-1fc3-4c49-862c-65aad570cc80" />
+
 
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
